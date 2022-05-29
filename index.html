@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="top-part">
+                <ul type="none">
+                    <li id="fName">First name</li>
+                    <li id="lName">Last name</li>
+                    <li id="email">Email</li>
+                    <li id="age">Age</li>
+                    <li id="Gen">Gender</li>
+                </ul>
+            </div>
+            <div>
+                <h1 style="text-align: center; margin: 15px ;">Registration Form</h1>
+                <div class="form-part">
+                    <form action="">
+                        <div class="inputRow">
+                            <input type="text" placeholder="Enter Your First Name" id="inFName">
+                            <input type="text" placeholder="Enter Your Last Name" id="inLName">
+                        </div>
+                        <div class="inputRow">
+                            <input type="email" placeholder="Enter Your Email" id="inMail">
+                            <div class="radio" style="display: inline;">
+                                <input type="radio" name="Gen" id="Male" checked>
+                                <p style="display: inline;">Male</p>
+                            </div>
+                            <div class="radio" style="display: inline;">
+                                <input type="radio" name="Gen" id="Female">
+                                <p style="display: inline;">Female</p>
+                            </div>
+                        </div>
+                        <div class="inputRow">
+                            <input type="tel" placeholder="Enter Contact number" id="inPhone">
+                            <input type="number" placeholder="Enter Age" id="inAge">
+                        </div>
+                        <div class="inputRow">
+                            <input type="password" placeholder="Password">
+                            <input type="password" placeholder="Confirm Password">
+                        </div>
+                        <div class="inputRow">
+                            <div id="submit">submit</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="style.js"></script>
+</body>
+</html>
